@@ -1,0 +1,32 @@
+{
+  "name": "client-sanity",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.17",
+    "@mui/styles": "^5.10.16",
+    "@sanity/client": "^3.4.1",
+    "@sanity/image-url": "^1.0.1",
+    "axios": "^1.2.1",
+    "bcryptjs": "^2.4.3",
+    "js-cookie": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "next": "13.0.6",
+    "next-connect": "^0.13.0",
+    "notistack": "^2.0.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.40.0",
+    "react-paystack": "^4.0.1"
+  }
+}
